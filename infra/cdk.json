@@ -1,0 +1,13 @@
+{
+  "app": "npx tsx bin/storypointless.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["README.md", "cdk*.json", "tsconfig.json", "node_modules"]
+  },
+  "context": {
+    "@aws-cdk/aws-iam:minimizePolicies": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/core:newStyleStackSynthesis": true,
+    "@aws-cdk/core:bootstrapQualifier": "hnb659fds"
+  }
+}

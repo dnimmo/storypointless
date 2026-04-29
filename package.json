@@ -1,0 +1,25 @@
+{
+  "name": "storypointless",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "infra"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c blue,magenta \"npm run dev -w @storypointless/server\" \"npm run dev -w @storypointless/web\"",
+    "dev:server": "npm run dev -w @storypointless/server",
+    "dev:web": "npm run dev -w @storypointless/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy": "./scripts/deploy.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@storypointless/infra",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy:cert": "cdk deploy StorypointlessCert --require-approval never",
+    "deploy:backend": "cdk deploy StorypointlessBackend --require-approval never",
+    "deploy:frontend": "cdk deploy StorypointlessFrontend --require-approval never",
+    "deploy:all": "cdk deploy --all --require-approval never"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "aws-cdk": "^2.170.0",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2"
+  }
+}

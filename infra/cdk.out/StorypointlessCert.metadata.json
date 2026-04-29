@@ -1,0 +1,124 @@
+{
+  "/StorypointlessCert": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:17:14)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessCert/CertificateArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CertificateArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new CertStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/cert-stack.ts:34:5)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:17:14)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessCert/Custom::CrossRegionExportWriterCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/StorypointlessCert/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessCert/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessCert/FrontendCert/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FrontendCertCBE469A5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Certificate2 in aws-cdk-lib...",
+        "new CertStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/cert-stack.ts:26:18)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:17:14)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessCert/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessCert/Custom::CrossRegionExportWriterCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCrossRegionExportWriterCustomResourceProviderRoleC951B1E1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessCert/Custom::CrossRegionExportWriterCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCrossRegionExportWriterCustomResourceProviderHandlerD8786E8A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessCert/ExportsWritereuwest25F52B32F/Resource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ExportsWritereuwest25F52B32F9AB3BFFD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}

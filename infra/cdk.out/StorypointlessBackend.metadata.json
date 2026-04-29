@@ -1,0 +1,505 @@
+{
+  "/StorypointlessBackend": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/RoomsTable": [
+    {
+      "type": "aws:cdk:hasPhysicalName",
+      "data": {
+        "Ref": "RoomsTableA5C1D45B"
+      }
+    }
+  ],
+  "/StorypointlessBackend/WsApi": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WsApi"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:72:19)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectIntegration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectIntegration"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:84:27)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:103:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectRoute"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:89:7)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:103:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectIntegration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectIntegration"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:84:27)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:104:35)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectRoute"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:89:7)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:104:35)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DefaultIntegration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DefaultIntegration"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:84:27)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:105:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DefaultRoute"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:89:7)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:105:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/Deployment": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Deployment"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:107:24)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/Stage": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "Stage"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:114:5)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/WsUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WsUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:131:5)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/TableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:132:5)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:133:5)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessBackend/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessBackend/RoomsTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "RoomsTableA5C1D45B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:26:19)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectFnEE9A9839"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectFn/ConnectInvoke": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectFnConnectInvoke06082075"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...NodejsFunction.addPermission in aws-cdk-lib...",
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:95:10)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:103:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectFnBC3B9222"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:57:26)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectFn/DisconnectInvoke": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectFnDisconnectInvoke1DEA6E8D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...NodejsFunction.addPermission in aws-cdk-lib...",
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:95:10)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:104:35)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/MessageFn/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageFn419B7C31"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:63:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/MessageFn/DefaultInvoke": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageFnDefaultInvokeBF230CB2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...NodejsFunction.addPermission in aws-cdk-lib...",
+        "mkRoute (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:95:10)",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:105:32)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals, tsx...",
+        "(no user code in 9007199254740991 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectFnServiceRole552163A9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/ConnectFn/LogRetention/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ConnectFnLogRetentionF6C7CD44"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectFnServiceRole124341EF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:57:26)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectFn/LogRetention/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectFnLogRetention0A50F8DD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:57:26)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/MessageFn/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageFnServiceRole25D4C250"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:63:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/MessageFn/LogRetention/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageFnLogRetention1D0E6BCA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:63:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:51:23)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/DisconnectFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DisconnectFnServiceRoleDefaultPolicyF6A657D7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.grantReadWriteData in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:69:11)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/StorypointlessBackend/MessageFn/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageFnServiceRoleDefaultPolicy13431CA6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.grantReadWriteData in aws-cdk-lib...",
+        "new BackendStack (/Users/nimmo/Develop/Personal/storypointless/infra/lib/backend-stack.ts:70:11)",
+        "<anonymous> (/Users/nimmo/Develop/Personal/storypointless/infra/bin/storypointless.ts:24:1)",
+        "...node internals..."
+      ]
+    }
+  ]
+}
