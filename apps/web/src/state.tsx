@@ -104,7 +104,18 @@ export function StateProvider({ children }: { children: ReactNode }) {
   const ctx = useMemo<Ctx>(
     () => ({
       state,
-      send: (event) => socketRef.current?.send(event),
+      send: (event) => {
+        // For participant-attributed actions, attach our known participantId
+        // so the server can sanity-check it against the connection binding.
+        const needsId =
+          state.participantId &&
+          event.type !== 'create_room' &&
+          event.type !== 'join_room';
+        const enriched = needsId
+          ? ({ ...event, participantId: state.participantId } as ClientEvent)
+          : event;
+        socketRef.current?.send(enriched);
+      },
       setMyVote: (cardIndex) => dispatch({ type: 'set_my_vote', cardIndex }),
       leave: () => dispatch({ type: 'leave' }),
     }),

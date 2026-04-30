@@ -107,6 +107,18 @@ export const handler: APIGatewayProxyHandler = async (event) => {
   }
   const participantId = lookup.participantId;
 
+  // Sanity check: if the client claimed a participantId, verify it matches
+  // the server's connection binding. Catches identity drift between client
+  // state and server state and forces a clean rejoin instead of silently
+  // recording the action against the wrong person.
+  if ('participantId' in body && body.participantId && body.participantId !== participantId) {
+    await sendTo(client, connectionId, {
+      type: 'error',
+      message: 'Session out of sync. Please refresh and rejoin.',
+    });
+    return { statusCode: 200, body: '' };
+  }
+
   switch (body.type) {
     case 'cast_vote':
       castVote(room, participantId, body.cardIndex);

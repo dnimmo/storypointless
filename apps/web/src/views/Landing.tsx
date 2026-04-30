@@ -1,11 +1,20 @@
 import { useState } from 'react';
 import { useAppState } from '../state.tsx';
 
+function readCodeFromUrl(): string {
+  if (typeof window === 'undefined') return '';
+  const raw = new URLSearchParams(window.location.search).get('code') ?? '';
+  return raw.toUpperCase().slice(0, 4);
+}
+
 export function Landing() {
   const { state, send } = useAppState();
-  const [mode, setMode] = useState<'choose' | 'create' | 'join'>('choose');
+  const initialCode = readCodeFromUrl();
+  const [mode, setMode] = useState<'choose' | 'create' | 'join'>(
+    initialCode ? 'join' : 'choose',
+  );
   const [name, setName] = useState('');
-  const [code, setCode] = useState('');
+  const [code, setCode] = useState(initialCode);
 
   const disabled = state.status !== 'open';
 

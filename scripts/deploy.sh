@@ -58,6 +58,11 @@ aws cloudfront create-invalidation \
   --paths "/*" \
   --query 'Invalidation.Id' --output text
 
+step "Activating Project cost-allocation tag (idempotent)"
+aws ce update-cost-allocation-tags-status \
+  --cost-allocation-tags-status TagKey=Project,Status=Active \
+  >/dev/null 2>&1 || echo "  (already active or not yet propagated; ignore)"
+
 step "Done."
 echo "Frontend: https://storypointless.com"
 echo "Backend:  $WS_URL"

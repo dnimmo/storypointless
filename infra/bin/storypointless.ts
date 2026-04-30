@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import 'aws-cdk-lib';
-import { App } from 'aws-cdk-lib';
+import { App, Tags } from 'aws-cdk-lib';
 import { CertStack } from '../lib/cert-stack.ts';
 import { BackendStack } from '../lib/backend-stack.ts';
 import { FrontendStack } from '../lib/frontend-stack.ts';
@@ -13,6 +13,11 @@ const domainName = 'storypointless.com';
 const zoneId = 'Z04612711KZXB3DL2CDNP';
 
 const app = new App();
+
+// Tag every resource so the Storypointless monthly budget can filter by it.
+// Activate `Project` as a cost-allocation tag in the Billing console (the
+// deploy script does this automatically; no-op once active).
+Tags.of(app).add('Project', 'storypointless');
 
 const cert = new CertStack(app, 'StorypointlessCert', {
   env: { account, region: certRegion },
